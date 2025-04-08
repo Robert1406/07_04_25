@@ -14,7 +14,7 @@
         <source src="audio.mp3" type="audio/mp3">
     </audio>
 
-    <form action="index2.html">
+    <form action="index2.html" method="POST">
 
         <h1 style="color: green;">Mi Primer Formulario</h1>
         <label for="codigo">Codigo de estudiante:</label>
@@ -34,7 +34,10 @@
         <label for="otro">Otro</label>
         <input type="radio" id="otro" name="tipo_documento"> <br>
 
-        <input type="submit" value="grabar">
+        <label for="pass">Ingresa tu clave</label>
+        <input type="password" name="pass" id="pass" placeholder="Ingresa tu clave"><br><br>
+
+        <input type="submit" value="Enviar">
 
     </form>
 
